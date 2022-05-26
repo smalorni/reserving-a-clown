@@ -1,0 +1,37 @@
+{
+  "clowns": [
+    {
+      "id": 1,
+      "name": "Buttons"
+    },
+    {
+      "id": 2,
+      "name": "Lollipop"
+    }
+  ],
+  "partyRequests": [
+    {
+      "parentName": "Raj",
+      "childName": "Bob",
+      "attendance": "3",
+      "address": "300 Red St",
+      "date": "12-20-2022",
+      "length": "2",
+      "id": 1
+    }
+  ],
+  "reservationCompletions": [
+    {
+      "partyRequestId": 1,
+      "clownId": 1,
+      "date_created": 1653502361935,
+      "id": 1
+    },
+    {
+      "partyRequestId": 1,
+      "clownId": 1,
+      "date_created": 1653502367396,
+      "id": 2
+    }
+  ]
+}
